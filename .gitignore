@@ -1,7 +1,7 @@
-__pycache__/
-*.pyc
-output/
-docs/
-.vscode/
 .DS_Store
-
+Thumbs.db
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.log
+*.tmp
