@@ -1,1 +1,7 @@
-
+Day,Period,Start,End,Subject,Teacher,Room,Batch
+Monday,1,09:00,09:45,Mathematics, Mr. A.K. Kumar ,A-101,BCA-1
+Monday,2,09:50,10:35,DSA C++,Mrs. Meghna Sharma,A-102,BCA-1
+Monday,3,10:45,11:30,Operating Systems,Ms.Kalpana Dwivedi,A-103,BCA-1
+Tuesday,1,09:00,09:45,Soft skils ,Mrs. Seema ,A-101,BCA-1
+Tuesday,2,09:50,10:35,Quants and Aptitude,Mr. Harshit,A-102,BCA-1
+Wednesday,1,09:00,09:45,Computer Networks,Ms. Rao,A-104,BCA-1
