@@ -2,8 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ABES College Timetable</title>
-  <link rel="stylesheet" href="style.css">
+  <title>ABES College Timetable (MCA-A) - Cross-Tabular</title>
+  <style>
+    /* Basic styling for visibility, you can replace this with your style.css */
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: center;
+      height: 50px; /* For better visual spacing */
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    /* Style for the rotated 'Session' header (like in the image) */
+    .vertical-header {
+        transform: rotate(-90deg);
+        white-space: nowrap;
+        padding: 0;
+        width: 30px; /* Adjust as needed */
+    }
+  </style>
 </head>
 <body>
   <h1>ABES College Timetable (MCA-A)</h1>
@@ -11,77 +34,58 @@
   <table>
     <thead>
       <tr>
-        <th>Day</th>
-        <th>Period</th>
-        <th>Start</th>
-        <th>End</th>
-        <th>Subject</th>
-        <th>Teacher</th>
-        <th>Room</th>
-        <th>Batch</th>
+        <th rowspan="2"></th>
+        
+        <th colspan="6">Section</th> 
+      </tr>
+      <tr>
+        <th>A (P-1)</th>
+        <th>A (P-2)</th>
+        <th>B (P-3)</th>
+        <th>B (P-4)</th>
+        <th>C (P-5)</th>
+        <th>C (P-6)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Monday</td>
-        <td>1</td>
-        <td>09:00</td>
-        <td>09:45</td>
-        <td>Mathematics</td>
-        <td>Mr. A.K. Kumar</td>
-        <td>A-101</td>
-        <td>MCA-A</td>
+        <th rowspan="2"><div class="vertical-header">Monday</div></th>
+        
+        <td>Maths</td>
+        <td>DSA</td>
+        <td>OS</td>
+        <td>CN</td>
+        <td>Soft</td>
+        <td>Quants</td>
       </tr>
       <tr>
-        <td>Monday</td>
-        <td>2</td>
-        <td>09:50</td>
-        <td>10:35</td>
-        <td>DSA C++</td>
-        <td>Mrs. Meghna Sharma</td>
-        <td>A-102</td>
-        <td>MCA-A</td>
+        <td>Elective</td> <td>Lab</td>    <td colspan="4">Break / Self-Study</td> </tr>
+      
+      <tr>
+        <th rowspan="2"><div class="vertical-header">Tuesday</div></th>
+        <td>Soft</td>
+        <td>Quants</td>
+        <td>Maths</td>
+        <td>DSA</td>
+        <td>OS</td>
+        <td>CN</td>
       </tr>
       <tr>
-        <td>Monday</td>
-        <td>3</td>
-        <td>10:45</td>
-        <td>11:30</td>
-        <td>Operating Systems</td>
-        <td>Ms. Kalpana Dwivedi</td>
-        <td>A-103</td>
-        <td>MCA-A</td>
+        <td>Break</td>
+        <td>Lab</td>
+        <td colspan="4">Placement Prep</td>
+      </tr>
+      
+      <tr>
+        <th rowspan="2"><div class="vertical-header">Wednesday</div></th>
+        <td colspan="2">CN Lab</td> 
+        <td colspan="2">DSA Lab</td>
+        <td colspan="2">OS Lab</td>
       </tr>
       <tr>
-        <td>Tuesday</td>
-        <td>1</td>
-        <td>09:00</td>
-        <td>09:45</td>
-        <td>Soft Skills</td>
-        <td>Mrs. Seema</td>
-        <td>A-101</td>
-        <td>MCA-A</td>
+        <td colspan="6">Extra Curricular Activities / Sports</td>
       </tr>
-      <tr>
-        <td>Tuesday</td>
-        <td>2</td>
-        <td>09:50</td>
-        <td>10:35</td>
-        <td>Quants and Aptitude</td>
-        <td>Mr. Harshit</td>
-        <td>A-102</td>
-        <td>MCA-A</td>
-      </tr>
-      <tr>
-        <td>Wednesday</td>
-        <td>1</td>
-        <td>09:00</td>
-        <td>09:45</td>
-        <td>Computer Networks</td>
-        <td>Ms. Rao</td>
-        <td>A-104</td>
-        <td>MCA-A</td>
-      </tr>
+
     </tbody>
   </table>
 
